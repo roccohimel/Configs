@@ -1,3 +1,6 @@
 xterm*font: 9x15
 xterm*background: black
 xterm*foreground: white
+XTerm*VT100.selectToClipboard: true
+XTerm*metaSendsEscape: true    
+
