@@ -2,5 +2,6 @@ xterm*font: 9x15
 xterm*background: black
 xterm*foreground: white
 XTerm*VT100.selectToClipboard: true
-XTerm*metaSendsEscape: true    
+XTerm*metaSendsEscape: true
+XTerm*VT100.translations: #override Shift Ctrl <Key>C: copy-selection(CLIPBOARD) \n Shift Ctrl <Key>V: insert-selection(CLIPBOARD)
 
